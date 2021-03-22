@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  background-position: bottom;
+}
+header{
+  background-color: red;
+  padding: 40px;
+}
+
+header > h1{
+  text-align: center;
+  text-decoration: overline underline;
+  word-spacing: inherit;
+  font-size: 40px;
+}
+.score-board{
+  border: 3px solid white;
+  color: white;
+  margin: 20px auto;
+  border-radius: 4px;
+  width:200px;
+  font-size: 46px;
+  padding:15px 20px;
+  text-align: center;
+  font-family: Asap,sans-serif;
+}
+
+.badge{
+  background: DodgerBlue;
+  color:white;
+  font-size: 14px;
+  padding:2px 10px;
+  width:50px;
+  border-radius: 4px;
+}
+
+#user{
+  position: absolute;
+  top: 220px;
+  left: 640px;
+
+
+}
+
+
+#comp{
+  position: absolute;
+  top:220px;
+  left:840px;
+}
+
+
+.result{
+  color: white;
+  text-align: center;
+  padding: 50px;
+  font-size: 35px;
+}
+
+
+.vl{
+  border-left: 3px solid white;
+  height: 288px;
+  position: absolute;
+  left: 770px;
+}
+#User_space{
+  position: relative;
+  color:white;
+  left:-100px;
+
+}
+
+#Comp_space{
+  position: relative;
+  color: white;
+  top=-30px;
+}
+
+.users_select{
+
+}
+.choice{
+  display:inline-block;
+  height: 10px;
+  width: 10px;
+}
+
+#p{
+  position: relative;
+  left:-800px;
+}
+#r{
+  position: relative;
+  left:-700px;
+}
+#s{
+  position: relative;
+  left:-650px;
+}
